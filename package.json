@@ -1,0 +1,20 @@
+{
+  "name": "My Project",
+  "version": "0.1.0",
+  "dependencies": {
+    "autoprefixer-core": "^5.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-cssmin": "*",
+    "grunt-postcss": "*",
+    "matchdep": "*",
+    "autoprefixer-core": "*",
+    "grunt-autoprefixer": "~3.0.0",
+    "grunt-contrib-copy": "~0.8.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
