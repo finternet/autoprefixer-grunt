@@ -2,6 +2,7 @@
 This is just a simple way to setup auto-prefixer for your project. All you need to do is:
 
 1. Install NodeJS
+2. Install Grunt CLI: you can run `npm install -g grunt-cli` in administrative mode (add `sudo` or run command prompt in administrator mode)
 2. Clone this project and copy the content into your project folder
 3. Open the command prompt (or Terminal window) and run `npm install`
 4. Create folders `less` and `css` into the root or update `Gruntfile.js` to have proper source and destination path.
