@@ -5,7 +5,7 @@ module.exports = function(grunt){
 		postcss: {
 			options: {
 				processors: [
-				  autoprefixer({ browsers: ['last 5 version', 'ie 8', 'ie 9'] }).postcss
+				  autoprefixer({ browsers: ['last 5 versions', 'ie 8', 'ie 9'] })
 				],
 			},
 			dist: { src: 'less/*.css' }
