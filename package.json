@@ -1,20 +1,20 @@
 {
-  "name": "mypsroject",
-  "version": "0.1.0",
+  "name": "governmentae",
+  "version": "0.0.1",
+  "description": "d",
+  "scripts": {
+    "build:en": "lessc less/site.less | cssmin | autoprefixer > css/site.min.css",
+    "build:ar": "lessc less/site-ar.less | cssmin | autoprefixer > css/site-ar.min.css",
+    "build:ieen": "lessc less/ie.less | cssmin > css/ie.min.css",
+    "build:iear": "lessc less/ie-ar.less | cssmin > css/ie-ar.min.css",
+    "build": "npm run build:en && npm run build:ar && npm run build:ieen && npm run build:iear"
+  },
+  "author": "FI",
+  "license": "BSD",
   "dependencies": {
-    "autoprefixer-core": "^5.0.0"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-contrib-cssmin": "*",
-    "grunt-postcss": "*",
-    "matchdep": "*",
-    "autoprefixer-core": "*",
-    "grunt-autoprefixer": "~3.0.0",
-    "grunt-contrib-copy": "~0.8.0"
-  },
-  "peerDependencies": {
-    "grunt": "~0.4.2"
+    "less": "~2.5.1",
+    "autoprefixer": "latest",
+    "cssmin": "latest",
+	"watch": "latest"
   }
 }
